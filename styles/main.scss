@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #434343;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+  padding: 10px 0;
+}
+
+// gameboard
+.board {
+  border: 1px solid #777777;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+// individual square on the board
+.square {
+  border: 1px solid #777777;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  img {
+    margin: auto 0;
+  }
+}
+
+// show moving piece
+.checker {
+  background-image: url("../assets/circle.png");
+  background-size: 98px;
+}
+
+// show red dot on target square
+.target {
+  background-image: url("../assets/circle.svg");
+  background-size: 98px;
+}
+
+// styling for play, stop, reset
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  * {
+    color: white;
+    padding: 6px 20px;
+    border-radius: 20px;
+  }
+  .red {
+    background-color: #E06666;
+    &:hover {
+      background-color: red;
+    }
+  }
+  .green {
+    background-color: #6AA84F;
+    &:hover {
+      background-color: green;
+    }
+  }
+  .blue {
+    background-color: #3C78D8;
+    &:hover {
+      background-color: blue;
+    }
+  }
+}
