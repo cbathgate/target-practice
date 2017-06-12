@@ -2,11 +2,12 @@
 Coding challenge in React
 
 # Prerequisites 
-Install [node.js](https://nodejs.org)
-Install [Sass](http://sass-lang.com/install)
+- Install [node.js](https://nodejs.org)
+- Install [Sass](http://sass-lang.com/install)
 
 # Installing dependencies
-In the project root, run `npm install`. 
+- In the project root, run `npm install`
+- To start the app, run `npm start`
 
 # Working with Sass
 If you want to edit any css, you can do so in styles/main.scss. You can either write in regular css, or in [Sass](http://sass-lang.com/). In order to process the Sass file into regular css, run the following command in your terminal once you have Sass properly installed: `sass --watch styles/main.scss:styles/bundle.css`
