@@ -29,4 +29,4 @@ Build out the game using the following user stories. Use the gif above as a guid
 - As a user, I would like the ability to resize the board
 - As a user, I would like to stop the marker movement
 
-Prompt inspire by [https://github.com/wwlib/programming-challenge](https://github.com/wwlib/programming-challenge)
+Prompt inspired by [https://github.com/wwlib/programming-challenge](https://github.com/wwlib/programming-challenge)
